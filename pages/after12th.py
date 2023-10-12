@@ -7,11 +7,7 @@ st.title("Engineering Exams")
 
 
 
-
-data = {
-    'Exam name': ['JEE Main','MHTCET'],
-    'Website': ['https://jeemain.nta.nic.in/','https://cetcell.mahacet.org/CAP_landing_page_2023/']
-}
+df=pd.read_csv("after12th.csv")
 
 
 df = pd.DataFrame(data)

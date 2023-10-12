@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title("Jee")
 
-df=pd.read_csv("C:/Users/Omar/Desktop/mysite/Total Seats.csv")
+df=pd.read_csv("Total Seats.csv")
 st.write(df)
 
 st.bar_chart(df, x="Branch of Study", y="Total Seats" )

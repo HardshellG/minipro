@@ -4,9 +4,7 @@ import time
 import numpy as np
 import pandas as pd
 import random
-from prophet import Prophet
 
-from streamlit_option_menu import option_menu
 st.title("Home")
 with st.sidebar:
     selected = option_menu("Main Menu", ["Home", 'Settings'], 

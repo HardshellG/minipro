@@ -6,9 +6,7 @@ import pandas as pd
 import random
 
 st.title("Home")
-with st.sidebar:
-    selected = option_menu("Main Menu", "Home", "Settings")
-    selected                                     
+st.sidebar.success("Mini Project")                                  
 
 
 

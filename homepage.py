@@ -1,0 +1,30 @@
+
+import streamlit as st
+import time
+import numpy as np
+import pandas as pd
+import random
+from prophet import Prophet
+
+from streamlit_option_menu import option_menu
+st.title("Home")
+with st.sidebar:
+    selected = option_menu("Main Menu", ["Home", 'Settings'], 
+        icons=['house', 'gear'], menu_icon="cast", default_index=1)
+    selected                                     
+
+
+
+st.write("Welcome to the Exam Timeline website, your one-stop destination for comprehensive and up-to-date information on examination schedules, deadlines, and important dates. Whether you're a student, educator, or professional seeking to stay organized, our platform is designed to help you navigate the world of exams with ease and confidence.")
+
+st.write("## Exam time remaining ##")
+progress_text = "Your jee exam is in 15 days."
+my_bar = st.progress(0, text=progress_text)
+
+for percent_complete in range(15):
+    time.sleep(0.01)
+    my_bar.progress(percent_complete + 1, text=progress_text)
+    
+ 
+
+

@@ -9,8 +9,7 @@ st.title("Engineering Exams")
 
 df=pd.read_csv("after12th.csv")
 
-
-df = pd.DataFrame(data)
+st.write(df)
 
 
 

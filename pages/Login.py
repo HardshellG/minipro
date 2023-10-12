@@ -3,9 +3,7 @@ import time
 import numpy as np
 import pandas as pd
 import random
-from prophet import Prophet
 
-from streamlit_option_menu import option_menu
 # Security
 #passlib,hashlib,bcrypt,scrypt
 import hashlib
